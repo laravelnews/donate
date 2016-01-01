@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     background: #F0F0F2;
+    border-radius: 5px;
 }
 .content {
     position: relative;
@@ -20,7 +21,7 @@ body {
     text-align: center;
 }
 .image {
-    width: 76px;
+    width: 75px;
     height: 75px;
     position: absolute;
     left: 50%;
@@ -32,9 +33,10 @@ body {
     width: 64px;
     height: 64px;
     display: block;
-    border-radius: 99px;
-    margin: 4px 6px 0;
-    border: 4px solid #fff;
+    border-radius: 50%;
+    margin: 4px 0 0;
+    border: 3px solid #fff;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,1),0 1px 0 rgba(255,255,255,0.7),0 0 4px rgba(86,149,219,0);
 }
 h1 {
     text-align: center;

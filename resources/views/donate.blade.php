@@ -9,7 +9,7 @@
 <div class="container">
     <div class="content">
         <div class="image">
-            <img src="http://www.gravatar.com/avatar/{{ md5("hello@laravel-news.com") }}?s={{ 75 * 2 }}" />
+            <img src="http://www.gravatar.com/avatar/{{ md5("hello@laravel-news.com") }}?s=200" />
         </div>
         <h1>Laravel News</h1>
 
