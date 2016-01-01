@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/donate');
 });
 
 /*
@@ -27,5 +27,6 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    Route::get('donate', 'DonateController@index');
+    Route::post('donate', 'DonateController@submit');
 });

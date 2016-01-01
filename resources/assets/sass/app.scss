@@ -1,2 +1,16 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  background: rgba(0,0,0,0.6);
+}
+.container {
+  max-with: 400px;
+  margin: 0 auto;
+}
+.content {
 
+}
